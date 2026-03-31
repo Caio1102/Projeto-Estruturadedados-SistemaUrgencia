@@ -1,0 +1,91 @@
+Fila: 1
+Fila: 2
+Pilha: 3
+Fila: 4
+Fila: 5
+Pilha: 6
+Fila: 7
+Fila: 8
+Fila: 9
+Pilha: 10
+Fila: 11
+Fila: 12
+Fila: 13
+
+=== HIST?RICO INICIAL ===
+1 | Centro | Lixo | ABERTO
+2 | Vila Nova | Buraco | ABERTO
+3 | Industrial | Inc?ndio | ABERTO
+4 | Centro | Poste apagado | ABERTO
+5 | Alvorada | Sinaliza??o | ABERTO
+6 | S?o Jos? | Acidente | ABERTO
+7 | Centro | Mato alto | ABERTO
+8 | Industrial | Esgoto | ABERTO
+9 | Vila Nova | ?rvore ca?da | ABERTO
+10 | Centro | Explos?o | ABERTO
+11 | Alvorada | Lixo | ABERTO
+12 | Centro | Buraco | ABERTO
+13 | S?o Jos? | Mato alto | ABERTO
+
+=== ATENDIMENTO ===
+O chamado urgente 10 est? sendo atendido
+O chamado urgente 6 est? sendo atendido
+O chamado urgente 3 est? sendo atendido
+O chamado comum 1 est? sendo atendido
+O chamado comum 2 est? sendo atendido
+
+=== ATIVOS ===
+10 | Centro | EM_ATENDIMENTO
+6 | S?o Jos? | EM_ATENDIMENTO
+3 | Industrial | EM_ATENDIMENTO
+1 | Centro | EM_ATENDIMENTO
+2 | Vila Nova | EM_ATENDIMENTO
+
+=== FINALIZA??O ===
+Chamado 10 finalizado
+Chamado 6 finalizado
+Chamado 3 finalizado
+
+=== HIST?RICO AP?S FINALIZA??ES ===
+1 | Centro | Lixo | EM_ATENDIMENTO
+2 | Vila Nova | Buraco | EM_ATENDIMENTO
+3 | Industrial | Inc?ndio | FINALIZADO
+4 | Centro | Poste apagado | ABERTO
+5 | Alvorada | Sinaliza??o | ABERTO
+6 | S?o Jos? | Acidente | FINALIZADO
+7 | Centro | Mato alto | ABERTO
+8 | Industrial | Esgoto | ABERTO
+9 | Vila Nova | ?rvore ca?da | ABERTO
+10 | Centro | Explos?o | FINALIZADO
+11 | Alvorada | Lixo | ABERTO
+12 | Centro | Buraco | ABERTO
+13 | S?o Jos? | Mato alto | ABERTO
+
+=== RELAT?RIOS ===
+
+Total por bairro:
+Centro: 5
+Vila Nova: 2
+Industrial: 2
+Alvorada: 2
+S?o Jos?: 2
+M?dia de urg?ncia: 2.77
+
+Chamados pendentes:
+1 | Centro | EM_ATENDIMENTO
+2 | Vila Nova | EM_ATENDIMENTO
+4 | Centro | ABERTO
+5 | Alvorada | ABERTO
+7 | Centro | ABERTO
+8 | Industrial | ABERTO
+9 | Vila Nova | ABERTO
+11 | Alvorada | ABERTO
+12 | Centro | ABERTO
+13 | S?o Jos? | ABERTO
+
+Ranking de bairros:
+1? Centro - 5
+2? Vila Nova - 2
+3? Industrial - 2
+4? Alvorada - 2
+5? S?o Jos? - 2
